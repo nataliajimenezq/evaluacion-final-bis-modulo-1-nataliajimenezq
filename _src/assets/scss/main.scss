@@ -17,6 +17,10 @@ body {
 	height: 100vh;
 	font-family: $font-general;
 }
+.page{
+
+	padding: 10px,20px,0px,20px;
+}
 @import 'layout/header';
 @import 'layout/base';
 @import 'layout/footer';

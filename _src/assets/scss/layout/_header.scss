@@ -6,28 +6,46 @@
     align-items: center;
     position:fixed;
     z-index: 1;
+    @media all and (min-width:768px){
+        flex-direction:row;
+        justify-content: space-between;
+        padding:20px 30px;
+    }
+    @media all and (min-width:1024px){
+        padding:20px 50px;
+    }
    
    &__logo{
        width: 9.6562rem;
        height: 3.75rem;
-   }
+       margin-top:5px;
+    }
     &__nav{
         width:9.031rem;
+
     }
     &__menu{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: center;
+
         &-item{
             list-style: none;
             text-transform: uppercase;
             padding:10px 0px 13px;
+            
         }
-
         &-link{
                 color:$color-general;
                 padding:inherit;  
-        }
+         }
     }
+        
+        
 }
+            
+    
+
+
+
