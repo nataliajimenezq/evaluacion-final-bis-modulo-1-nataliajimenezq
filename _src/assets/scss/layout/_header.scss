@@ -14,7 +14,6 @@
     @media all and (min-width:1024px){
         padding:20px 50px;
     }
-   
    &__logo{
        width: 9.6562rem;
        height: 3.75rem;
@@ -22,19 +21,16 @@
     }
     &__nav{
         width:9.031rem;
-
     }
     &__menu{
         display:flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: center;
-
         &-item{
             list-style: none;
             text-transform: uppercase;
-            padding:10px 0px 13px;
-            
+            padding:10px 0px 13px;    
         }
         &-link{
                 color:$color-general;
@@ -44,11 +40,9 @@
                 color:$color-hover;
                 border-bottom: 2px solid $color-hover;
                 transition: color,border ease 1s;
-            }  
-         }
-    }
-        
-        
+                }  
+        }
+    }        
 }
             
     
