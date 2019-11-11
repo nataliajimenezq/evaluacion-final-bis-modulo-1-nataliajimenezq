@@ -228,6 +228,11 @@ a {
   text-decoration: none;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -285,6 +290,39 @@ body {
 .header__menu-link {
   color: #4a4a4a;
   padding: inherit;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
+  color: #ffffff;
+  padding: 0 20px 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__tittle {
+  margin: 0;
+  font-size: 30px;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main__tittle-items {
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=main.css.map */

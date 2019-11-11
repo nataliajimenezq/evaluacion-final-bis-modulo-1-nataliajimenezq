@@ -1,0 +1,25 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    background-position:center;
+    background-size:cover;
+    background-image: url("/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
+    color:$color-white;
+    padding:0 20px 0 20px;
+    display:flex;
+
+    &__tittle{
+        margin:0;
+        font-size:$font-sizeme;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    
+        &-items{
+        text-transform: capitalize;
+        }
+    }
+
+}
