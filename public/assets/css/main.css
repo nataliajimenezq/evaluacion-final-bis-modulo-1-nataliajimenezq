@@ -297,7 +297,14 @@ body {
 
 .header__menu-link {
   color: #4a4a4a;
-  padding: inherit;
+  padding: 5px 0px 7px;
+}
+
+.header__menu-link:hover {
+  color: #14d9c4;
+  border-bottom: 2px solid #14d9c4;
+  -webkit-transition: color,border ease 1s;
+  transition: color,border ease 1s;
 }
 
 .main {

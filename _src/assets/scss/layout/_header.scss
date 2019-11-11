@@ -38,7 +38,13 @@
         }
         &-link{
                 color:$color-general;
-                padding:inherit;  
+                padding: 5px 0px 7px;
+            
+                &:hover{
+                color:$color-hover;
+                border-bottom: 2px solid $color-hover;
+                transition: color,border ease 1s;
+            }  
          }
     }
         
