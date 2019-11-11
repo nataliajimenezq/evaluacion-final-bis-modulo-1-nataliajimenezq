@@ -1,7 +1,17 @@
-@import 'core/variables';
 
+@import 'core/variables';
+@import 'vendors/normalize';
+
+html{
+	font-size:16px;
+}
 
 body {
 	margin: 0;
 	height: 100vh;
+	font-family: $font-general;
 }
+@import 'layout/header';
+@import 'layout/base';
+@import 'layout/footer';
+
