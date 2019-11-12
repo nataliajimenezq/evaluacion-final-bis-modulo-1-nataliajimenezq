@@ -13,7 +13,6 @@
  */body {
   margin: 0;
   height: 100vh;
-  background-color: #ffffff;
 }/**
  * Render the `main` element consistently in IE.
  */main {
@@ -241,6 +240,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: "Rubik", sans-serif;
+  background-color: #ffffff;
 }
 
 .header {
@@ -306,7 +306,7 @@ body {
 .main {
   height: 100vh;
   width: 100%;
-  background-image: url("/assets/images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
+  background-image: url("../images/david-van-dijk-3LTht2nxd34-unsplash.jpg");
   background-size: 120% 90%;
   color: #ffffff;
   padding: 0 20px 0 20px;
