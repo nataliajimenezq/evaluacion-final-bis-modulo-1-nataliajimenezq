@@ -299,8 +299,10 @@ body {
 .header__menu-link:hover {
   color: #14d9c4;
   border-bottom: 2px solid #14d9c4;
-  -webkit-transition: color,border ease 1s;
-  transition: color,border ease 1s;
+  -webkit-transition-property: color, border;
+  transition-property: color, border;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
 }
 
 .main {

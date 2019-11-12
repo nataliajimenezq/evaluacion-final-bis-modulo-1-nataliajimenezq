@@ -39,7 +39,8 @@
                 &:hover{
                 color:$color-hover;
                 border-bottom: 2px solid $color-hover;
-                transition: color,border ease 1s;
+                transition-property: color, border;
+                transition: ease 1s;
                 }  
         }
     }        
